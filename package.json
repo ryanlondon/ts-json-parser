@@ -1,0 +1,23 @@
+{
+  "name": "ts-json-parser",
+  "version": "1.0.0",
+  "description": "just for typescript learning",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.12.8",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0"
+  }
+}
